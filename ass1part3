@@ -1,0 +1,29 @@
+```html
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Assignment 1A part 3: HTML markup problem</title>
+    <!-- Robelyn Garcia DGMD E-20 -->
+</head>
+
+<body>
+
+    <header>
+        <h1>Chapter I. What It's All About</h1>
+    </header>
+    
+    
+    
+    
+        <style>
+        h1 {
+            border-bottom: 2px solid crimson;
+            color: crimson;
+            text-align: center;
+        </style>
+
+</body>
+
+</html>
+```
