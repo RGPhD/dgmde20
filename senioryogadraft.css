@@ -1,0 +1,203 @@
+/* style meditationyogaclub police css below! */
+
+/* below are styles for the header, navigation bar, police content and the footer.  */
+
+body {
+            font-family: verdana, arial, helvetica, sans-serif;
+            margin-left: 5%;
+            margin-right: 5%;
+            background: #e6ffe6;
+        }
+
+header {
+  text-align: center;
+}
+
+h1 {
+          font-size: 250%;
+           border: thick solid #e60000;
+            background: #ccccff;
+            color: #e60000;
+            text-align: center;
+            padding-top: 0.75em;
+            padding-bottom: 0.75em;
+            margin-bottom: 0.25em;
+        }
+
+        h2 {
+            color: #e60000;
+        }
+        h3, h4 {
+            color: #e60000;
+            text-align: center
+        }
+       
+        h5,
+        h6 {
+            color: black;
+        }
+
+        h2 {
+            margin-bottom: 0.25em;
+        }
+#maincontent {
+            color: #cc6699;
+        } 
+img {
+    border: thick solid #e60000;
+}
+
+
+ul li {
+  display: block;
+}
+
+.booklist {
+	width:80%;
+	margin:auto;
+  
+}
+
+.book {
+	border: thick solid #e60000;
+	background-color: #ccccff;
+	overflow:auto;
+	padding:15px;
+    margin:15px;
+}
+
+
+.bookcover {
+  font-size: 80%;
+	font-style: italic;
+	color: green;
+}
+
+.author {
+  color: black;
+  padding-top:5px;
+}
+
+.title {
+  color: #e60000;
+  font-style: italic;
+	font-weight: bold;
+	padding-top:5px;
+}
+
+.publisher {color:#e60000;
+	font-variant:small-caps;
+  font-weight: bold;
+	padding-top:5px;
+}
+
+.date {color:#e60000;
+	font-size: 95%;
+	padding-top:15px;
+}
+
+.isbn {color:#e60000;
+	font-size: 95%;
+	padding-top:5px;
+}
+
+/* img :not(picture) {float: right;
+clear:right;
+} */
+
+        a:link,
+        a:visited,
+        a:active {
+            color: purple;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        ul {
+            margin: 0;
+        
+        }
+        
+.skiplink {
+  background-color: #EECCFF;
+  border: 1px solid #e60000;
+  padding: 0 0.5em 0 0.5em;
+}
+
+/* Accessible U Onfocus Styling with my own color, outline and shadow. */
+h1:focus, h1:hover, input:focus, input:hover, button:focus, button:hover, textarea:focus, textarea:hover,  em:focus, em:hover, figure:focus, figure:hover, .skiplink:focus, .skiplink:hover {
+    outline: solid #e60000;
+    border-color: #e60000;
+    box-shadow: 0 0 20px #EECCFF;
+}
+
+nav {
+  text-align: center;
+}
+
+nav.sitenav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav.sitenav li {
+  display: inline-block;
+  width: 14em;
+  text-align: center;
+  position: relative;
+}
+
+nav.sitenav a {
+  display: block;
+  font-weight: bold;
+  padding: 0.75em;
+}
+
+nav.sitenav a:link,
+nav.sitenav a:visited,
+nav.sitenav a:hover,
+nav.sitenav a:active {
+  color: #e60000;
+  text-decoration: none;
+  border: 3px solid #e60000;
+}
+
+nav.sitenav a:hover {
+  background-color: #EECCFF;
+}
+
+nav.sitenav li.youarehere a {
+  background-color: #ccccff;
+  border: 3px solid #e60000;
+}
+
+.center {
+  display: block;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.senioradultimage {
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+.senioradultimage p {
+  text-align: center;
+  font-weight: bold;
+  color: #e60000;
+  margin: 0 0 0.3em 0;
+}
+
+footer {
+    font-weight: bold;
+    color: #e60000;
+    text-align: center;
+    border-top: thick solid #e60000;
+}
